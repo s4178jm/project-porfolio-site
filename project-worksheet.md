@@ -28,10 +28,19 @@ Include link to your google sheet here.  Here is the sample [Joe had used in cla
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
 
-[https://www.figma.com/](https://www.figma.com/)
-[https://mockflow.com/app/#Wireframe](https://mockflow.com/app/#Wireframe)
+- [Mobile]()
+- [Tablet](https://mockflow.com/app/#Wireframe)
+- [Desktop](https://www.figma.com/)
+
+Wireframing Resources:
+
+- [Mockflow](https://mockflow.com/app/#Wireframe)
+- [Figma](https://www.figma.com/)
+
 
 ## Time/Priority Matrix 
+
+[Link]()
 
 Include a full list of features that have been prioritized based on the `Time and Priority` Matix.  This involves drawing a a square.  In the middle of the square, on the x axis draw a line.  The most left part of the line should start with 0hrs and the end of the line should include 2hrs.  This line will be used to estimate how much time any one feature will take to complete. 
 
@@ -62,11 +71,29 @@ Based on the initial logic defined in the previous sections try and breakdown th
 
 Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe.
 
+#### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Hamburger | H | 1hr | 1.5hr | -hr|
+| Project Previews | H | 3hr | -hr | -hr|
+| Regular Nav | H | H | -hr | -hr|
+| Adding Form | H | 1.5hr| -hr | -hr |
+| Other sections and flex| M | 4hr | 2hr | -hr|
+| Working with API | H | 3hrs| 2hr | -hr |
+| Responsive | H | 3hr | -hr | -hr|
+| Social Media Icons | L | 1hr | -hr | -hr|
+| Total | H | 15.5hrs| -hrs | -hrs |
+
+#### PostMVP
+| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
+| Project Hover | L | 3hr | -hr | -hr|
+| Banner letters wiggle | L | 1hr | -hr | -hr|
+| Interactive Banner | M | 4hr | -hr | -hr|
+| Materialize | H | 4hr | -hr | -hr|
+| Bootstrap | H | 4hr | -hr | -hr|
+| Make own icon | L | 4hr | -hr | -hr|
+| Total | H | 20hrs| -hrs | -hrs |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
