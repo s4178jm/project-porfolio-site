@@ -1,0 +1,275 @@
+html {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+body {
+    font-family: 'Lora', serif;
+    margin-top: 50px;
+    text-align: center;
+    color:gray;
+    
+}
+
+#name {
+    margin: 50px 0 0 0 ;
+    padding: 300px;
+    background-size: auto;
+    background-position: center;
+    background-image: url(https://res.cloudinary.com/s4178jm/image/upload/v1584043299/Full_stack_developer-1-1_fzsth2.jpg);
+    
+}
+
+
+
+#about {
+    font-family: 'Lora', serif;
+    margin-top: 50px;
+    text-align: center;
+    color: gray;
+}
+.P1 {
+    text-align: center;
+    font-family:"Lora", serif;
+    font-size: 32px;
+    color: gray;
+    margin: 20px 0px 0px 0;
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    font-family: 'Lora', serif;
+    margin-top: 50px;
+    text-align: center;
+    color: #635536;
+}
+
+
+.card {
+  margin: 4% 2%;
+  width: 298.2px;
+  height: 434px;
+  align-items: center;
+  position: relative;
+  border: 1px solid #635536;
+  border-radius: 5px;
+}
+
+.card img {
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.card-body {
+  position: absolute;
+  bottom: 30px;
+  padding: 10px ;
+   color: #49412e;
+}
+
+.card-title {
+  font-size:20px;
+}
+
+.card-text{
+  font-size: 18px;
+}
+
+a {
+  background-color: #49412e;
+  color: #FFFFFF;
+  border: none;
+  margin: 1% 0;
+  align-self: center;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.live-link:hover, .github-link:hover {
+  background-color: #CBD5CD;
+  color: #000000;
+  border: 1px solid black;
+}
+
+
+#skills {
+    font-family: 'Lora', serif;
+    margin-top: 50px;
+    text-align: center;
+    color: #635536;
+}
+
+.skill-name{
+    margin-top: 15px;
+    font-weight: 900;
+    color: #635536;
+    font-family: 'Lora', serif;
+    font-size: 17.5px;
+}
+
+#javascript {
+    width: 16%;
+    margin-top: 5px;
+  }
+
+  #htmlicon {
+    width: 19%;
+  }
+
+  #github {
+    padding-top: 10px;
+    width: 30%;
+  }
+
+  #git {
+    padding-top: 35px;
+    width: 20%;
+    }
+
+    #css6 {
+        width: 14%;
+        }
+
+        #bootstrap {
+            width: 20%;
+        }
+
+        #responsive {
+            width: 30%;
+        }
+
+        #jquery {
+            width: 20%;
+        }
+
+#resume {
+    font-family: 'Lora', serif;
+    margin: 50px 0px 50px 0px;
+    
+    height: 130px;
+    text-align: center;
+    color: gray;
+    background-color:greenyellow;
+}
+
+#contact {
+    display: inline;
+    font-family: 'Lora', serif;
+    margin-top: 20px;
+    text-align: center;
+    color: #635536;
+    height: 150px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+
+  input[type=submit] {
+    background-color: #49412e;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+  }
+
+
+footer {
+    background-color:lightblue;
+    color: gray;
+    text-align: right;
+    font-family: 'Lora', serif;
+}
+
+.top-link {
+    transition: all .25s ease-in-out;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: inline-flex;
+    
+      cursor: pointer;
+      align-items: center;
+      justify-content: center;
+      margin: 0 3em 3em 0;
+      border-radius: 50%;
+      padding: .25em;
+      width: 20px;
+      height: 20px;
+    background-color: #F8F8F8;
+    
+    &.show {
+      visibility: visible;
+      opacity: 1;
+    }
+    
+    &.hide {
+      visibility: hidden;
+      opacity: 0;
+    }
+  
+
+    svg {
+        fill: #000;
+        width: 24px;
+        height: 12px;
+       }
+        
+       &:hover {
+        background-color: #E8E8E8;
+        
+    svg {
+        fill: #000000;
+    }
+}
+}
+
+// Text meant only for screen readers.
+.screen-reader-text {
+    position: absolute;
+    clip-path: inset(50%);
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    word-wrap: normal !important;
+    clip: rect(1px, 1px, 1px, 1px);
+ 
+    /* &:focus {
+        display: block;
+        top: 5px;
+        left: 5px;
+        z-index: 100000; // Above WP toolbar
+        clip-path: none;
+        background-color: #eee;
+        padding: 15px 23px 14px;
+        width: auto;
+        height: auto;
+        text-decoration: none;
+        line-height: normal;
+        color: #49412e;
+        font-size: 1em;
+        clip: auto !important;
+    } */
+}
