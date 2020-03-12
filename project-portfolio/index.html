@@ -6,43 +6,79 @@
     <title>Jonathan Chen</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Oxanium&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
-        <h1 class="title">
-            Jonathan Chen's portfolio
-        </h1>
+    <div class="navWrapper">
         <div class="navBar">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About me</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+            <div><a class= "navLink" id="Home" href="#">Home</a></div>
+            <div><a class= "navLink" id="About me" href="#">About me</a></div>
+            <div><a class= "navLink" id="projects" href="#">Projects</a></div>
+            <div><a class= "navLink" id="Contact" href="#">Contact</a></div>
         </div>
-    </header>
-    <div class="image">
-        <h1 id="Gray">Hello!</h1>
-        <img src="#" alt="Jonathan">
+        <div class="headLine">
+            <p id="title">Jonathan Chen</p>
+        </div>
+        <div class="socialLinkGroup">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+        </div>
     </div>
-    <div class="intro">
+    </header>
+    <main>
+    <div class="pages" id="image">
+        <div class="homePicture"></div>
+        <div class="homeHeader"></div>
+        <div class="homeHeaderLine">
+            <p class="homeTag">Web developer</p>
+        </div>
+    </div>
+    <div class="pages" id="intro">
         <h2 class="aboutMe">About Me:</h2>
         <p></p>
     </div>
-    <div class="skills">
+    <div class="pages" id="skills">
         <h2 class="aboutSkills">Skills and Language:</h2>
         <p>Expert at HTML, CSS,and JAVASCRIPT. Willing to learn more language. Being a front-end engineer now.
             learing back-end language such as Node and Express. Full-stack engineer is my goal.
 
         </p>
     </div>
-    <div class="projects">
+    <div class="pages" id="projectsList">
         <h2 class="projectsList">Projects:</h2>
-        <div class="pictures"></div>
+        <div class="workItem">
+            <a class="imageLink"href="https://explore-the-parks.herokuapp.com/"><div class="explore workImage"></div></a>
+            <div class="workText">
+              <p class="itemHeader">Explore</p>
+              <h2 class="textHeader">Technologies Used</h2>
+              <div class="languages">EJS/Node.js/Express/CSS</div>
+              <h2 class="textHeader">About the Build</h2>
+              <div class="sentence">Explore is full-stack app that helps plan a roadtrip to all of the US National Parks. Using the MVC framework, I was able to pass data from the back end to the front end successfully. Users can search for activities and park names on the search page, which queries the National Parks Services API and the data renders in both a list view and through Google Maps.</div>
+              <div class="workWebsite">
+                <a href="https://explore-the-parks.herokuapp.com/"><div class="workLinks deployedSite">Go to Explore</div></a>
+                <a href="https://github.com/aileenmwong/Explore-App"><div class="workLinks github">See the Github Repo</div></a>
+              </div>
+            </div>
+          </div>
+        <div class="workItem">
+            <a class="imageLink" href="https://blooming-gorge-62801.herokuapp.com/"><div class="gramCentralStation workImage"></div></a>
+            <div class="workText">
+              <p class="itemHeader">Gram Central Station</p>
+              <h2 class="textHeader">Technologies Used</h2>
+              <div class="languages">EJS/Node.js/Express</div>
+              <h2 class="textHeader">About the Build</h2>
+              <div class="sentence">Gram Central Station is a full-stack app to save your favorite instagram trends. Users can upload photos of their favorite instagram trends, add some information about the trend such as location, an image, and any notes, so the next time they are trying to make weekend plans, they can view all of their saved activities and locations.</div>
+              <div class="workWebsite">
+                <a href="https://blooming-gorge-62801.herokuapp.com/"><div class="workLinks deployedSite">Go to Gram Central Station</div></a>
+                <a href="https://github.com/aileenmwong/Gram-Central-Station"><div class="workLinks github">See the Github Repo</div></a>
+              </div>
+            </div>
+          </div>
     </div>
-    <div class="contact">
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-twitter"></a>
+    <div class="pages" id="contactMe">
     </div>
+    </main>
 </body>
 </html>
