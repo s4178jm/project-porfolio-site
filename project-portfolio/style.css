@@ -1,8 +1,74 @@
+html {
+    display: block;
+    color: -internal-root-color;
+}
+
+body {
+    padding-top: 30px;
+    display: block;
+    margin: 8px;
+}
+header {
+    display: block;
+    background: #ffffff;
+    height: 30px;
+    position: fixed;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+    width: 100%;
+    z-index: 100;
+    padding-top: 10px;
+}
+div{
+    display: block;
+}
+.navWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.navBar {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    position: relative;
+    background-color: white;
+}
+.headLine {
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: center; */
+}
+#title {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family:"Oxanium", sans-serif;
+    display: inline;
+    background-color: white;
+    padding: 5px 20px;
+    flex-direction: row;
+    color: black;
+    margin: 0 auto;
+}
+.socialLinkGroup {
+    position: relative;
+    text-align: right;
+    background-color: white;
+}
+.navLink {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family:"Oxanium", sans-serif;
+    display: inline;
+    background-color: white;
+    padding: 5px 20px;
+    flex-direction: row;
+    color: black;
+}
 /* Style all font awesome icons */
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
+    padding: 10px;
+    font-size: 15px;
+    width: 30px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
@@ -26,3 +92,40 @@
     background: #55ACEE;
     color: white;
   }
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#image {
+    height: 600px;
+}
+.pages {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 0;
+    position: relative;
+}
+.homePicture {
+    background-image: url(https://miro.medium.com/max/2560/1*D9YKlFGZKiYoR57tUTpCrg.jpeg);
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    position: absolute;
+}
+.homeHeaderLine {
+    margin-left: 60%;
+    padding-top: 10%;
+    display: block;
+    position: relative;
+}
+.homeTag {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    text-shadow: 1px 1px #000000;
+    margin: 0;
+}
+
