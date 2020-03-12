@@ -3,82 +3,174 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Jonathan Chen</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Oxanium&display=swap" rel="stylesheet">
-
 </head>
 <body>
     <header>
-    <div class="navWrapper">
-        <div class="navBar">
-            <div><a class= "navLink" id="Home" href="#">Home</a></div>
-            <div><a class= "navLink" id="About me" href="#">About me</a></div>
-            <div><a class= "navLink" id="projects" href="#">Projects</a></div>
-            <div><a class= "navLink" id="Contact" href="#">Contact</a></div>
-        </div>
-        <div class="headLine">
-            <p id="title">Jonathan Chen</p>
-        </div>
-        <div class="socialLinkGroup">
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-        </div>
-    </div>
-    </header>
-    <main>
-    <div class="pages" id="image">
-        <div class="homePicture"></div>
-        <div class="homeHeader"></div>
-        <div class="homeHeaderLine">
-            <p class="homeTag">Web developer</p>
-        </div>
-    </div>
-    <div class="pages" id="intro">
-        <h2 class="aboutMe">About Me:</h2>
-        <p></p>
-    </div>
-    <div class="pages" id="skills">
-        <h2 class="aboutSkills">Skills and Language:</h2>
-        <p>Expert at HTML, CSS,and JAVASCRIPT. Willing to learn more language. Being a front-end engineer now.
-            learing back-end language such as Node and Express. Full-stack engineer is my goal.
 
-        </p>
+<nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: lightblue;">
+
+        <button class="navbar-toggler collapse show" type="button" data-toggle="collapse" data-target="#collapse_target" aria-controls="collapse_target" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+            <div class="navbar-collapse collapse" id="collapse_target" style>
+
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#name">Home </a>
+            </li>    
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About </a>
+            </li>    
+            <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+            </li>    
+            <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+            </li>     
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>    
+          </ul>
+        </div>
+    </nav> 
+
+    
+    </header>
+
+    <section id="name">
+ 
+            </section>
+    
+<section id="about">
+<h2>About me</h2>
+<img src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/37110403_2016877885009616_7949266406493650944_o.jpg?_nc_cat=111&_nc_sid=7aed08&_nc_ohc=kArDuyqV_HMAX8q2nOF&_nc_ht=scontent-sea1-1.xx&oh=140e1fbce3ea108f1c1b012b5eecdfa6&oe=5E8FE05F" width=20%, height=20%/>
+<p>Hi, I'm Jonathan Chen. I live in Seattle area. Willing to give myself a challenge at building software. </p>
+</section>
+    <!-- projects -->
+    <h2 class="P1">Projects</h2>
+    <section id="projects">
+
+        
+  
+    <!-- <div class="projectWrap"> -->
+  
+    <div class="card">
+   <img src="https://res.cloudinary.com/s4178jm/image/upload/v1584042739/Screen_Shot_2020-03-10_at_12.15.07_PM_itt4zr.png" class="card-img-top">
+       <div class="card-body">
+           <h4 class="card-title">Sartre's List</h4>
+           <p class="card-text">A fashion blog utlizing css grid and flexbox.</p>
+       <a class="btn btn-primary live-link" href="" target="_blank">See the app</a>
+        </div>
+   </div>
+
+   <div class="card">
+   <img src="https://res.cloudinary.com/s4178jm/image/upload/v1584042739/Screen_Shot_2020-03-10_at_12.07.04_PM_zmsjsc.png" class="card-img-top">
+       <div class="card-body">
+           <h4 class="card-title">Instagram Quotes</h4>
+           <p class="card-text">An info graphic that was created with CSS.</p>
+       <a class="btn btn-primary live-link" href="" target="_blank">See the app</a>
+        </div>
+   </div>
+
+   <div class="card">
+   <img src="https://res.cloudinary.com/s4178jm/image/upload/v1584042978/Screen_Shot_2020-03-12_at_12.56.04_PM_okh88i.png" height=50% class="card-img-top">
+       <div class="card-body">
+           <h4 class="card-title">Startup Matchamker</h4>
+           <p class="card-text">A web page that uses flexbox for formatting. </p>
+       <a class="btn btn-primary live-link" href="" target="_blank">See the app</a>
+        </div>
+   </div>
+
+   <div class="card">
+   <img src="https://res.cloudinary.com/s4178jm/image/upload/v1584042752/Screen_Shot_2020-03-10_at_7.56.33_AM_jzwdqb.png" class="card-img-top">
+       <div class="card-body">
+           <h4 class="card-title">Memory Game</h4>
+           <p class="card-text"> A simple card game that utelizes JavaScript.</p>
+       <a class="btn btn-primary live-link" href="" target="_blank">See the app</a>
+        </div>
+   </div>
+    <!-- </div> -->
+   </section>
+
+   <!-- <a href="https://github.com/eloisebarrow/decoding_code" target="_blank" class="btn btn-primary github-link">See the code</a> -->
+
+   <!-- skills-->
+
+   <section id="skills">
+       <h2>Skills and Languages</h2>
+       <div class="container skills">
+        <div class="row">
+        <div class="col-sm-3 text-center skill-div"><img src="https://m.lianapenn.com/images/HTML5.png" class="skill-icon" id="htmlicon"><div class="skill-name" id="push-left">HTML5</div></div>
+        <div class="col-sm-3 text-center skill-div"><img src= "https://m.lianapenn.com/images/css3.png" class="skill-icon" id="css6"><div class="skill-name" id="push-text">CSS3</div></div>
+        <div class="col-sm-3 text-center skill-div"><img src="https://m.lianapenn.com/images/learn-javascript.png" class="skill-icon" id="javascript"><div class="skill-name">javascript</div></div>
+        <div class="col-sm-3 text-center skill-div"><img src="https://m.lianapenn.com/images/responsive.png" class="skill-icon" id="responsive"><div class="skill-name">Responsive Design</div></div>
+        </div>
     </div>
-    <div class="pages" id="projectsList">
-        <h2 class="projectsList">Projects:</h2>
-        <div class="workItem">
-            <a class="imageLink"href="https://explore-the-parks.herokuapp.com/"><div class="explore workImage"></div></a>
-            <div class="workText">
-              <p class="itemHeader">Explore</p>
-              <h2 class="textHeader">Technologies Used</h2>
-              <div class="languages">EJS/Node.js/Express/CSS</div>
-              <h2 class="textHeader">About the Build</h2>
-              <div class="sentence">Explore is full-stack app that helps plan a roadtrip to all of the US National Parks. Using the MVC framework, I was able to pass data from the back end to the front end successfully. Users can search for activities and park names on the search page, which queries the National Parks Services API and the data renders in both a list view and through Google Maps.</div>
-              <div class="workWebsite">
-                <a href="https://explore-the-parks.herokuapp.com/"><div class="workLinks deployedSite">Go to Explore</div></a>
-                <a href="https://github.com/aileenmwong/Explore-App"><div class="workLinks github">See the Github Repo</div></a>
-              </div>
-            </div>
+        <div class="row">
+        <div class="col-sm-3 text-center skill-div"><img src="https://m.lianapenn.com/images/git.png" class="skill-icon" id="git"><div class="skill-name">Git</div></div>
+        <div class="col-sm-3 text-center skill-div"><img src="https://m.lianapenn.com/images/jquery.gif" class="skill-icon" id="jquery"><div class="skill-name">jQuery</div></div>
+        <div class="col-sm-3 text-center skill-div"><img src="https://m.lianapenn.com/images/github.png" class="skill-icon" id="github"><div class="skill-name">Github</div></div>
+        <div class="col-sm-3 text-center skill-div"><img src="https://dh.virginia.edu/system/files/styles/large/private/bootstrap-stack.png?itok=b_S8F9nO" class="skill-icon" id="bootstrap"><div class="skill-name">Bootstrap</div></div>
+        </div>
+
+
+        </div>
+        </section>
+
+
+
+<!-- contact-->
+
+<section id="contact">
+    <h2>Contact</h2>
+        <div class="container cont">
+            <form action="action_page.php">
+          
+              <label for="fname">Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Email</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
           </div>
-        <div class="workItem">
-            <a class="imageLink" href="https://blooming-gorge-62801.herokuapp.com/"><div class="gramCentralStation workImage"></div></a>
-            <div class="workText">
-              <p class="itemHeader">Gram Central Station</p>
-              <h2 class="textHeader">Technologies Used</h2>
-              <div class="languages">EJS/Node.js/Express</div>
-              <h2 class="textHeader">About the Build</h2>
-              <div class="sentence">Gram Central Station is a full-stack app to save your favorite instagram trends. Users can upload photos of their favorite instagram trends, add some information about the trend such as location, an image, and any notes, so the next time they are trying to make weekend plans, they can view all of their saved activities and locations.</div>
-              <div class="workWebsite">
-                <a href="https://blooming-gorge-62801.herokuapp.com/"><div class="workLinks deployedSite">Go to Gram Central Station</div></a>
-                <a href="https://github.com/aileenmwong/Gram-Central-Station"><div class="workLinks github">See the Github Repo</div></a>
-              </div>
-            </div>
-          </div>
+
+          <!--
+        <div class= "row contact-row">
+            <div class= "co-4 contact-col"> <p><a href=""> <img border="0" alt="email" src="https://cdn3.iconfinder.com/data/icons/pixel-perfect-at-16px-volume-3-1/16/5047-512.png" width=10%, height="10%";></a>
+            </p>  </div>
+   
+       <div class= "co-4 contact-col"><p><a href=""> <img border="0" alt="LinkedIn" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAhFBMVEUAe7X///8AcK/Y7PQAdrJ4rtCVwty92+uozeFJmMSkzOIAb64AerQAeLMAdLEAcrDt9voAgLyx0uXN4+/0+vxop80njL4ch7xVocuexd3B2+s9lMRsq9AAfLPf7vUGhL2GudiLvNjV5fBSm8ZGkMB7s9MAaKuewNpjosqn0eWDu9i+3+4+e2cMAAAFAElEQVR4nO2d63LaOhRGJSMuBkk2tsExYAMBn6bp+7/f4ZqExFJzeoRU9nxrptMf2FOtkbylrUvF+JXeaDavGQnKpyp/82KXvxfxVCvJKCjWNZNiusxuDNOVUhTk3qhrKZ6ad8OmFCRq7xa9zq+GzVTV9AQZUzo/G6alCl2W+1DLde9kuBIUK/CE2hUHw4Ui+A1eEaODYUwrit6i5pz1poQFGZsu2EiHLsRdERs2IxpIL8iYzWXoQtwVVRKOoyfqyx+60LYDAAAAAAAAAAAAAAAAAL6HZEJH0SRKNNHVK6XZ7jXLn/NxuxSC4AKWXm+a676qIp8JavUoJ6uUfySfJ6HL5BQVZfwzq4RQS1Vq+EWQ85bOhgApxh2CnM/IKOpVpyCd3WOyTrsNeTYJXTY3JAODIOdE9nUkjdFwTOJLVEujIG9E6NK5QLdmQ04i1nR09u88UajEpKu3v7KiYBjZDPvkDWcUDHVlMVxSiDRiZhYsGIUuX5Vmw5xGkjjJjYZEEihzM00VhUZ6IFmYqpBGIz18ifvu9CmnM+OmO9tpQ2JQeqEry0/nFHr7N6Ld54aaS1KCh4Baj4uPLbSlNJd4Run5oHeqyCLN+2tNTvCAStT8pd9f7UpN0u+EElprOn0EAODvIZmYue31teXJz4N0KYVIouj4UxTpoAuu+nVs5OfuY8n0bGR8ctR/TyWl0pEo9y/97eD0WzVoZ/tSRTpQMhaZcqcjN3NtkXmBg/MsujylhIrbrJcWNz8XaZP19ypIXX5/NtFqODobHoZG215heKZ4bssAGz1cGspknZn0LpLjdWQqyQMYqsS2BnJloD1nLe4MpRx9Q/CQuMR+J7icGUphW+P5SNH3mps5M7SsJX9hE3lUdGU4mX9fkPPWY7xxZfiPrV/9you/cOPIcGxZHOgi3XtTdGRY/fhvhh5nY13VoXn1w4C3GXVHhrlp25GRtPZUiY4M/4DKUzwNZ1h4+hLDGfLWTzgNaPhM3tDTRoiQhgMvSUZIw570EWtCGhZ7H800pKGfcU1Qw6GPTj+oYUP9O+RF6UExqKGXRDis4dZDqHFtWDSLUVVV42HznXxq7CHUuDVstjETyREt5+3zb59fPJhhsdHJex+ukujFfJbjTPpYhvn600yvFEn3obF3POSI7gzz+usYTEa/men3sHnOmWFRdkV+KexTVB4SKGeGm87AL0VsXW97eRzD1LTaYj2U4+NEhyvDganvFrHtte39k2BHhsXOVBmytnUZHtJ8R4ap8R+Q2rZmM77/sM3VnLf5e9Jby3vZwxgOzSW1ncqxvfeXGWbm4ZfYWd779TCGI4uhLZjm9x+YwhCG/9OwR/47hCEMYQhDGMIQhjCEIQxhCEMYwhCGMIQhDGEIQxjCEIYwhCEMYQhDGMIQhjCEIQxhCEMYwhCGMIQhDGEIQxh+IvnZM9Lc3PeUvDbmJwdmQxWb3+t5OFHCdGLm9jCTsDxpO4KmLO/R+//7AQAAAAAAAAAAAAAAAAAAAADAJXXoAtwd2oYHuzJ0Ge5MyZ6IL/3HrBKkm6lqWT6lbFirIeNL0s20LBjPPF+36xVRccb5k9/rdj1Sq2VxNGzWkuanWMtpzo+GPNeSYr9fy9M+yqMhz9chbmm/N2p62ijKzrs2d0Fuor8jNRPL800ZZ0NejOZTIVVNorEeJJQqq8s9Gext9+1iE1MZo5ZxO3y7B+RfrxZu+tPvXXgAAAAASUVORK5CYII=" width=10%, height="10%";></a>
+     </p>  </div>
+     <div class= "co-4 contact-col"><p><a href=""> <img border="0" alt="gitHub" src="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMu%0D%0Ab3JnLzIwMDAvc3ZnIj48dGl0bGU+R2l0SHViIGljb248L3RpdGxlPjxwYXRoIGQ9Ik0xMiAuMjk3%0D%0AYy02LjYzIDAtMTIgNS4zNzMtMTIgMTIgMCA1LjMwMyAzLjQzOCA5LjggOC4yMDUgMTEuMzg1LjYu%0D%0AMTEzLjgyLS4yNTguODItLjU3NyAwLS4yODUtLjAxLTEuMDQtLjAxNS0yLjA0LTMuMzM4LjcyNC00%0D%0ALjA0Mi0xLjYxLTQuMDQyLTEuNjFDNC40MjIgMTguMDcgMy42MzMgMTcuNyAzLjYzMyAxNy43Yy0x%0D%0ALjA4Ny0uNzQ0LjA4NC0uNzI5LjA4NC0uNzI5IDEuMjA1LjA4NCAxLjgzOCAxLjIzNiAxLjgzOCAx%0D%0ALjIzNiAxLjA3IDEuODM1IDIuODA5IDEuMzA1IDMuNDk1Ljk5OC4xMDgtLjc3Ni40MTctMS4zMDUu%0D%0ANzYtMS42MDUtMi42NjUtLjMtNS40NjYtMS4zMzItNS40NjYtNS45MyAwLTEuMzEuNDY1LTIuMzgg%0D%0AMS4yMzUtMy4yMi0uMTM1LS4zMDMtLjU0LTEuNTIzLjEwNS0zLjE3NiAwIDAgMS4wMDUtLjMyMiAz%0D%0ALjMgMS4yMy45Ni0uMjY3IDEuOTgtLjM5OSAzLS40MDUgMS4wMi4wMDYgMi4wNC4xMzggMyAuNDA1%0D%0AIDIuMjgtMS41NTIgMy4yODUtMS4yMyAzLjI4NS0xLjIzLjY0NSAxLjY1My4yNCAyLjg3My4xMiAz%0D%0ALjE3Ni43NjUuODQgMS4yMyAxLjkxIDEuMjMgMy4yMiAwIDQuNjEtMi44MDUgNS42MjUtNS40NzUg%0D%0ANS45Mi40Mi4zNi44MSAxLjA5Ni44MSAyLjIyIDAgMS42MDYtLjAxNSAyLjg5Ni0uMDE1IDMuMjg2%0D%0AIDAgLjMxNS4yMS42OS44MjUuNTdDMjAuNTY1IDIyLjA5MiAyNCAxNy41OTIgMjQgMTIuMjk3YzAt%0D%0ANi42MjctNS4zNzMtMTItMTItMTIiLz48L3N2Zz4=" width=10%, height="10%";></a>
+     </p>   </div>
+     
+    </div> -->
     </div>
-    <div class="pages" id="contactMe">
-    </div>
-    </main>
+</section>
+
+<footer>
+    Made by Jonathan Chen 
+</footer>
+
+<a class="top-link hide" href="" id="js-top">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6"><path d="M12 6H0l6-6z"/></svg>
+    <span class="screen-reader-text">&#8593;</span>
+  </a>
+  
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   <script src="app.js"></script>
 </body>
 </html>
