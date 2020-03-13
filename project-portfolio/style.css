@@ -255,4 +255,21 @@ footer {
     overflow: hidden;
     word-wrap: normal !important;
     clip: rect(1px, 1px, 1px, 1px);
+ 
+    /* &:focus {
+        display: block;
+        top: 5px;
+        left: 5px;
+        z-index: 100000; // Above WP toolbar
+        clip-path: none;
+        background-color: #eee;
+        padding: 15px 23px 14px;
+        width: auto;
+        height: auto;
+        text-decoration: none;
+        line-height: normal;
+        color: #49412e;
+        font-size: 1em;
+        clip: auto !important;
+    } */
 }
