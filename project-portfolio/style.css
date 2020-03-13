@@ -1,6 +1,7 @@
 html {
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -12,29 +13,33 @@ body {
 }
 
 #name {
-    margin: 50px 0 0 0 ;
-    padding: 300px;
-    background-size: auto;
+    margin: 30px 0 0 0 ;
+    padding: 350px;
+    background-size:  cover ;
     background-position: center;
     background-image: url(https://res.cloudinary.com/s4178jm/image/upload/v1584043299/Full_stack_developer-1-1_fzsth2.jpg);
     background-repeat: no-repeat;
-
 }
 
 
 
 #about {
+    display: flex;
     font-family: 'Lora', serif;
     margin-top: 50px;
+    padding: 0 200px;
+    font-size: 16px;
     text-align: center;
     color: gray;
+    flex-direction: row;
+    justify-content: center;
 }
 #p1 {
     text-align: center;
     font-family:"Lora", serif;
     font-size: 32px;
     color: gray;
-    margin: 20px 0px 0px 0;
+    margin: 50px 0px 0px 0;
 }
 
 .projects {
@@ -45,32 +50,32 @@ body {
     font-family: 'Lora', serif;
     margin-top: 50px;
     text-align: center;
-    color: #635536;
+    color: gray;
 }
 
 
 .card {
   margin: 4% 2%;
-  width: 298.2px;
-  height: 434px;
+  width: 250px;
+  height: 300 px;
   align-items: center;
   position: relative;
-  border: 1px solid #635536;
+  border: 1px solid gray;
   border-radius: 5px;
 }
 
 .cardBackground {
   background-size: cover;
   border-radius: 5px;
-  height: 195px;
-  width: 295px;
+  height: 200px ;
+  width: 200px;
 }
 
 .card-body {
   position: absolute;
   bottom: 30px;
   padding: 10px ;
-   color: #49412e;
+   color: gray;
 }
 
 .card-title {
@@ -82,7 +87,7 @@ body {
 }
 
 a {
-  background-color: #49412e;
+  background-color: gray;
   color: #FFFFFF;
   border: none;
   margin: 1% 0;
@@ -112,11 +117,11 @@ a {
     display: inline;
     font-family: 'Lora', serif;
     text-align: center;
-    color: gray;
+    color: lightgrey;
 }
 
 input[type=text], select, textarea {
-    width: 100%; 
+    width: 50%; 
     padding: 12px;  
     border: 1px solid #ccc; 
     border-radius: 4px; 
@@ -134,7 +139,9 @@ input[type=text], select, textarea {
     border-radius: 4px;
     cursor: pointer;
   }
-  
+  .contactInfo{
+    background-color: green;
+  }
   .container {
     border-radius: 5px;
     background-color: white;
@@ -143,6 +150,9 @@ input[type=text], select, textarea {
 
   .cont {
     background-color: green;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
   }
 
 
@@ -152,4 +162,39 @@ footer {
     text-align: right;
     font-family: 'Lora', serif;
 }
-
+.projectBtn {
+  color: gray;
+  background-color: greenyellow;
+}
+.fa {
+  display: flex;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+.fa:hover {
+  opacity: 0.7;
+  text-decoration: none;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-github {
+  background:black;
+  color: white;
+}
+.icons {
+  position: fixed;
+  float: right;
+  top: 90%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
