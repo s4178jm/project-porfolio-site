@@ -5,10 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Jonathan Chen</title>
 </head>
 <body>
+    <div class="icons">
+        <a href="https://www.facebook.com/profile.php?id=100000622736475" class="fa fa-facebook"></a>
+        <a href="https://www.linkedin.com/in/jonathan-chen-8bb46319b/" class="fa fa-linkedin"></a>
+        <a href="https://github.com/s4178jm" class="fa fa-github"></a>
+    </div>
     <header>
 
 <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: lightblue;">
@@ -39,17 +45,22 @@
         </div>
     </nav> 
 
-    
+     <section id="name">
+    </section>
     </header>
 
-    <section id="name">
- 
-            </section>
+   
     
 <section id="about">
-<h2>About me</h2>
-<img src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.15752-9/s1080x2048/82587721_635957623840879_2627948123141439488_n.jpg?_nc_cat=107&_nc_sid=b96e70&_nc_ohc=Lf4MMiX59zcAX9zG1HU&_nc_ht=scontent-sea1-1.xx&_nc_tp=7&oh=ec9292a9424059eb6fcccf50e8313c11&oe=5E900FC2" width=15%, height=10%/>
-<p>Hi, I'm Jonathan Chen. I live in Seattle area. Willing to give myself a challenge at building software. </p>
+
+
+<img src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.15752-9/s1080x2048/82587721_635957623840879_2627948123141439488_n.jpg?_nc_cat=107&_nc_sid=b96e70&_nc_ohc=Lf4MMiX59zcAX9zG1HU&_nc_ht=scontent-sea1-1.xx&_nc_tp=7&oh=ec9292a9424059eb6fcccf50e8313c11&oe=5E900FC2" width=15%auto, height=10%/>
+<div>
+<h2>My story</h2>
+<p>Hi, I'm Jonathan Chen and I live in Seattle area. After high school, I found out that I am interested in building projects using computer language.
+    I sign up a remote course from General Assembly and learning how to be a software engineer.
+    Now with the knowledge and skills I have, I am willing to give myself a challenge at building software. </p>
+</div>
 </section>
     <!-- projects -->
     <h2 id="p1">Projects</h2>
@@ -68,25 +79,21 @@
 
 
 <section id="contact">
-    <h2>Contact</h2>
+    <div class="contactInfo">
+    <h2>Want to contact me? Leave your info below!</h2>
         <div class="container cont">
             <form action="action_page.php">
-          
-              <label for="fname">Name</label>
               <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          
-              <label for="lname">Email</label>
-              <input type="text" id="lname" name="lastname" placeholder="Your email address..">
-          
-              <label for="subject">Subject</label>
+              <input type="text" id="lname" name="email" placeholder="Your email address..">
               <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-          
+              <br>
               <input type="submit" value="Submit">
           
             </form>
           </div>
 
     </div>
+
 </section>
 
 <footer>

@@ -39,14 +39,9 @@ function app(projects) {
      let $infoBody = $('<div>').addClass('cardBody')
      $cardContainer.append($imgContainer)
      $cardContainer.append($infoBody)
-     let $cardHead = $('<h4>').addClass('card-title')
-     let $cardParagraph = $('<p>').addClass('card-text')
-     $cardHead.append(element['title'])
-     $cardParagraph.append(element['description'])
-     $infoBody.append($cardHead)
-     $infoBody.append($cardParagraph)
+  
      $imgContainer.css('background-image', 'url("'+ element['image'] +'")')
-     let $buttonPrimary = $('<button>').addClass('projectBtn').html('See the app')
+     let $buttonPrimary = $('<button>').addClass('projectBtn').html('Check this project')
      $infoBody.append($buttonPrimary)
     $sectionContainer.append($cardContainer)
     $buttonPrimary.on('click', function() {
