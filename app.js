@@ -56,23 +56,3 @@ function app(projects) {
    })
 }
 
-/*const $section = $('section');
-const $div = $('<div>');
-
-$section.append($div);
-
-const createTable = () => {
-    cardArray.forEach( iconData => {
-        let $li = $(`<div class="card">
-                    <img src="${iconData.image}>
-                    <div class="card-body">
-                    <h4 class="card-title">${iconData.title}</h4>
-                     <p class="card-text">${iconData.description}</p>
-                    <a class="btn btn-primary live-link" href="${iconData.Link}" target="_blank">See the app</a>
-                    </div>
-                     </div>`)
-        $div.append($li);
-    })
-};
-
-createTable(); */
