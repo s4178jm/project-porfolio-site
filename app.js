@@ -31,7 +31,7 @@ fetch(source)
   // .catch( err => console.log('err', err))
 
   let $sectionContainer = $('.projects')
-
+  let $buttonBtn = $('.submitBtn')
 function app(projects) {
    projects.forEach(function(element) {
      let $cardContainer = $('<div>').addClass('card')
@@ -39,7 +39,6 @@ function app(projects) {
      let $infoBody = $('<div>').addClass('cardBody')
      $cardContainer.append($imgContainer)
      $cardContainer.append($infoBody)
-  
      $imgContainer.css('background-image', 'url("'+ element['image'] +'")')
      let $buttonPrimary = $('<button>').addClass('projectBtn').html('Check this project')
      $infoBody.append($buttonPrimary)
@@ -51,3 +50,6 @@ function app(projects) {
    })
 }
 
+$buttonBtn.on('click', function(){
+    alert("Message sent!")
+})
