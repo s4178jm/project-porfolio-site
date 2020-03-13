@@ -28,7 +28,7 @@ body {
     text-align: center;
     color: gray;
 }
-.P1 {
+#p1 {
     text-align: center;
     font-family:"Lora", serif;
     font-size: 32px;
@@ -36,7 +36,7 @@ body {
     margin: 20px 0px 0px 0;
 }
 
-#projects {
+.projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -58,9 +58,11 @@ body {
   border-radius: 5px;
 }
 
-.card img {
+.cardBackground {
   background-size: cover;
   border-radius: 5px;
+  height: 195px;
+  width: 295px;
 }
 
 .card-body {
@@ -200,7 +202,7 @@ footer {
     font-family: 'Lora', serif;
 }
 
-.top-link {
+/* .top-link {
     transition: all .25s ease-in-out;
     position: fixed;
     bottom: 0;
@@ -255,21 +257,4 @@ footer {
     overflow: hidden;
     word-wrap: normal !important;
     clip: rect(1px, 1px, 1px, 1px);
- 
-    /* &:focus {
-        display: block;
-        top: 5px;
-        left: 5px;
-        z-index: 100000; // Above WP toolbar
-        clip-path: none;
-        background-color: #eee;
-        padding: 15px 23px 14px;
-        width: auto;
-        height: auto;
-        text-decoration: none;
-        line-height: normal;
-        color: #49412e;
-        font-size: 1em;
-        clip: auto !important;
-    } */
-}
+} */
