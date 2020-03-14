@@ -8,11 +8,14 @@ body {
     font-family: 'Lora', serif;
     margin-top: 50px;
     text-align: center;
-    color:gray;
+    color:darkgray;
     
 }
+nav ul li .nav-link{
+  color: black;
+}
 
-#name {
+#home {
     margin: 30px 0 0 0 ;
     padding: 350px;
     background-size:  cover ;
@@ -33,6 +36,23 @@ body {
     color: gray;
     flex-direction: row;
     justify-content: center;
+}
+.myPhoto {
+  height: 30%;
+  width: 30%;
+}
+@media (max-width:767px){
+  #home {
+    margin: 30px 0 0 0 ;
+    padding: 350px;
+    background-size:  100% ;
+    background-position: center;
+    background-image: url(https://res.cloudinary.com/s4178jm/image/upload/v1584043299/Full_stack_developer-1-1_fzsth2.jpg);
+    background-repeat: no-repeat;
+}
+  .myPhoto{
+    display: none;
+  }
 }
 #p1 {
     text-align: center;
