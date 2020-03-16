@@ -72,15 +72,15 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Header | M | 1.5hrs | hrs | hrs |
-| Image | M | 1hrs| hrs | hrs |
-| Intro | M | 1hrs| hrs | hrs |
-| Skills and Language | L | 1.5hrs| hrs | hrs |
-| Projects list | H | 3hrs| hrs | hrs |
-| Hamburger bar | H | 3hrs| hrs | hrs |
-| Nav bar | H | 3hrs| hrs | hrs |
-| Styling the page | M | 3hrs| hrs | hrs |
-| Total | M | 17hrs| hrs | hrs |
+| Header | M | 1.5hrs | 2hrs | 2hrs |
+| Image | M | 1hrs| 1hrs | 1hrs |
+| Intro | M | 1hrs| 1hrs | 1hrs |
+| Skills and Language | L | 1.5hrs| 1hrs | 1hrs |
+| Projects list | H | 3hrs| 4.5hrs | 4.5hrs |
+| Hamburger bar | H | 3hrs| 3hrs | 3hrs |
+| Nav bar | H | 3hrs| 3hrs | 3hrs |
+| Styling the page | M | 3hrs| 3hrs | 3hrs |
+| Total | M | 17hrs| 18.5hrs | 18.5hrs |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
